@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/project-img1.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,6 +18,7 @@ export const Projects = () => {
     {
       title: "Finance Tracking App",
       description: "An application that enables you to track your budget and income but also concerning your budget",
+      imgUrl: projImg2,
     }
   ];
 
